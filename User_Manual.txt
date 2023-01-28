@@ -1,0 +1,33 @@
+Here is a detailed guide for using all three versions of Medbot
+
+
+You first need to install all the required modules on your window system.
+Once you have everting setup just run the "Medbot_CLI.py" file.
+
+(1) You'll be greeted by the Medbot with appropriate timing ie Morning, Afternoon,Evening
+
+(2) It'll then ask you to tell the medicine name.
+
+(3) Once it has recognized told names it'll show you the name that It has detected and will 
+    proceed for asking the schedule you gotta tell it in the format of like one-zero-one, one-zero-zero etc OR one-hundred-one, one-hundred-eleven etc. or in hindi like "एक सौ एक",
+    "एक सौ दस" only.
+    i.e. out of ['001', '010', '011', '100', '101', '110', '111']. Otherwise it'll throw an error
+    that not in the possible schedule because only above mentioned schedules are possible.
+    where first position denotes the Morning, second denotes Afternoon and third one denotes Evening.
+
+(4) After taking schedule as input it'll display the detected schedule and medicine name and 
+    will ask "Are the details correct? [YES / NO]", you should reply in either yes or no 
+
+    If you say no it'll get reset and again ask you for medicine name like from the start
+    and if you yes then it'll ask you for "Do you want to add more medicines ?" and you can
+
+    add more medicines with their schedule like we did in step 1 to 3.
+
+    Once you choose to no it will display finally all your medicine names and 
+    their corresponding schedules and will ask you to exit by pressing enter.
+
+
+    
+
+The working of other two ie Web and GUI is quite similar !!
+

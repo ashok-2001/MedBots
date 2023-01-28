@@ -1,0 +1,6 @@
+Receipt Created on : 2022-07-22 23:31:48
+
+Medicine : Schedule
+-------- : --------
+Paracetamol 100 mg : Morning, Evening
+dolo 50 mg : Afternoon, Evening
